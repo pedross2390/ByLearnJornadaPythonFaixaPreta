@@ -1,0 +1,14 @@
+def media_calculo(nota1,nota2,nota3):
+    soma = nota1 + nota2 + nota3
+    resultado = soma/3  
+    return resultado
+def verificar_aprovado(resultado):
+    if resultado >=6: 
+        print('Parabéns você foi aprovado!')
+    else: 
+        print('Infelizmente você não foi aprovado.')    
+nota1 = float(input('Coloque a nota 1 '))
+nota2 = float(input('Coloque a nota 2 '))
+nota3 = float(input('Coloque a nota 3 '))
+media_resultado= media_calculo(nota1,nota2,nota3)
+verificar_aprovado(media_resultado)
