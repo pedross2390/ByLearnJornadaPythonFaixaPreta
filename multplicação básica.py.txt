@@ -1,0 +1,7 @@
+def mult():
+    primeiro_numero= float(input('Digite seu primeiro número: '))
+    segundo_numero= float(input('Digite seu segundo número: '))
+    multiplicar= primeiro_numero * segundo_numero
+    print('A multiplicação de {} com {} é {}'.format(primeiro_numero,segundo_numero,multiplicar))
+
+mult()
