@@ -1,0 +1,18 @@
+lista= ['x','y']
+lista[0]= input('coloque o seu usuario: ')
+lista[1]= input('coloque a sua senha: ')
+
+
+def verificar():
+    verificador_user= input('insira seu user: ')
+    verificador_senha = input('insira sua senha: ')
+    if lista[0]== verificador_user:
+        print('seu user é {}'.format(lista[0]))
+        if lista[1]== verificador_senha:
+            print('Você está logado')
+        else:
+            print("a senha inserida é incompatível com a inicial. ")    
+    else:
+        print('O user inserido é incompatível com o inicial. ')
+       
+verificar()
