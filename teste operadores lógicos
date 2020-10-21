@@ -1,0 +1,11 @@
+ def desbancar_magico():
+      numero_definido = 4
+      numero_magico = int(input("o numero que o magico escolheu foi: "))
+      if numero_definido == numero_magico:
+          print("parabens vc acertou o numero. ")
+      elif numero_definido > numero_magico:
+          print('chute mais alto. ')
+      elif numero_definido < numero_magico:
+          print('chute mais baixo')
+
+desbancar_magico()    
